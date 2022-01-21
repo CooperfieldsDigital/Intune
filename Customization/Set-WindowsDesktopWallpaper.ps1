@@ -29,11 +29,11 @@
 param(
     [parameter(Mandatory = $false, HelpMessage = "Name of the Azure Storage Account.")]
     [ValidateNotNullOrEmpty()]
-    [string]$StorageAccountName = "<StorageAccountName>",
+    [string]$StorageAccountName = "<customisation>",
 
     [parameter(Mandatory = $false, HelpMessage = "Name of the Azure Storage Blob container.")]
     [ValidateNotNullOrEmpty()]
-    [string]$ContainerName = "<ContainerName>"
+    [string]$ContainerName = "<customisation>"
 )
 Begin {
     # Install required modules for script execution
